@@ -14,7 +14,12 @@ function HomepageHeader() {
       <ExperimentalWarning />
       <header className={clsx('hero hero--background', styles.heroBanner)}>
         <div className="container">
-          <img src="img/logo.svg" alt="Simple Dart App Logo" width="99" height="99" />
+          <img
+            src="img/logo.svg"
+            alt="Simple Dart App Logo"
+            width="99"
+            height="99"
+          />
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>

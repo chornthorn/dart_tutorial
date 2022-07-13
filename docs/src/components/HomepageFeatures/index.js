@@ -8,7 +8,8 @@ const FeatureList = [
     Svg: require('@site/static/img/bolt.svg').default,
     description: (
       <>
-          Develop with a programming language specialized around the needs of user interface creation
+        Develop with a programming language specialized around the needs of user
+        interface creation
       </>
     ),
   },
@@ -16,7 +17,10 @@ const FeatureList = [
     title: 'Productive development',
     Svg: require('@site/static/img/heart.svg').default,
     description: (
-      <>Make changes iteratively: use hot reload to see the result instantly in your running app.</>
+      <>
+        Make changes iteratively: use hot reload to see the result instantly in
+        your running app.
+      </>
     ),
   },
   {
@@ -24,7 +28,8 @@ const FeatureList = [
     Svg: require('@site/static/img/target.svg').default,
     description: (
       <>
-          Compile to ARM & x64 machine code for mobile, desktop, and backend. Or compile to JavaScript for the web.
+        Compile to ARM & x64 machine code for mobile, desktop, and backend. Or
+        compile to JavaScript for the web.
       </>
     ),
   },

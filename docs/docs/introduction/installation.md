@@ -59,7 +59,7 @@ version code. If not, watch the video above.
 ## Some Useful Commands
 
 | Command                          | Description                                                     |
-|----------------------------------|-----------------------------------------------------------------|
+| -------------------------------- | --------------------------------------------------------------- |
 | `dart –help`                     | Show all available commands.                                    |
 | `dart filename.dart`             | Run the dart file.                                              |
 | `dart create`                    | Create dart project.                                            |
