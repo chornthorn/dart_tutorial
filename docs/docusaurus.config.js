@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
     title: 'The Dart Tutorial 2022',
-    tagline: 'A fast, easy to use, and fun way to learn Dart',
+    tagline: 'A fast, easy to use, and fun way to learn Dart.',
     url: 'https://chornthorn.github.io',
     baseUrl: '/dart_tutorial/',
     onBrokenLinks: 'throw',
