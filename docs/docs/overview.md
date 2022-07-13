@@ -1,5 +1,8 @@
 ---
 sidebar_position: 1
+js:
+  - defer: true
+    url: https://dartpad.dev/experimental/inject_embed.dart.js
 ---
 
 # Overview 🎯
@@ -60,6 +63,10 @@ Next, open the newly created project and start application via:
 cd my_project
 dart bin/main.dart
 ```
+
+# Run online
+
+<iframe src="//dartpad.dev/embed-inline.html?id=c0f7c578204d61e08ec0fbc4d63456cd&split=80&theme=dark" frameborder="0" allowfullscreen width="100%" height="500"></iframe>
 
 ## Include Topic ✨
 
