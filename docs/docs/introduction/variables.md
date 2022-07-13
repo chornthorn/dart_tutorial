@@ -46,7 +46,7 @@ more complex.
 - A variable name cannot start with number.
 - Keywords are not allowed to use as a variable name.
 - Blank spaces are not allowed in a variable name.
-- Special characters are not allowed except for the underscore (_) and the dollar ($) sign.
+- Special characters are not allowed except for the underscore (\_) and the dollar ($) sign.
 
 ## Constant In Dart
 

@@ -24,7 +24,7 @@ is
 as given below:
 
 | Data Type | Keyword          | Description                                            |
-|-----------|------------------|--------------------------------------------------------|
+| --------- | ---------------- | ------------------------------------------------------ |
 | Numbers   | int, double, num | It represents the number of bits of the computer.      |
 | Strings   | String           | It represents a sequence of characters                 |
 | Booleans  | bool             | It represents Boolean values true and false            |
@@ -66,7 +66,7 @@ marks.
 ## Special Character In String In Dart
 
 | Special Character | Description     |
-|-------------------|-----------------|
+| ----------------- | --------------- |
 | `\n `             | New Line        |
 | `\t`              | Tab             |
 | `\r`              | Carriage Return |
@@ -116,6 +116,7 @@ You can convert double to int using `toInt()` method.
 
 In **Dart**, **boolean** holds either **true** or **false** value. You can write `bool` keyword to define **boolean**
 data type.
+
 <iframe src="//dartpad.dev/embed-inline.html?id=8a14e70a1d4784b7f9d8f675b1edd54f&split=70&theme=dark" frameborder="0" allowfullscreen width="100%" height="280"></iframe>
 
 ## Lists
@@ -176,6 +177,7 @@ dynamic** and **static** types, so it is called **optionally-typed** language.
 
 A language is **statically typed** if the data type of variables is known at compile time. Its main advantage is that
 the compiler can quickly check the issues and detect bugs.
+
 <iframe src="//dartpad.dev/embed-inline.html?id=ff4a7e43c5b6269cd92c08282397de05&split=70&theme=dark" frameborder="0" allowfullscreen width="100%" height="300"></iframe>
 
 ## Dynamically Typed Example

@@ -8,7 +8,7 @@ description: Practice questions for Dart programming
 
 1. Write a program to print your name in Dart.
 2. Declare constant type of int set value 7.
-3. Write a program in Dart that finds simple interest. Formula= (p * t * r) / 100
+3. Write a program in Dart that finds simple interest. Formula= (p _ t _ r) / 100
 4. Write a program to print an integer entered by the user.
 5. Write a program to print String entered by the user.
 6. Write a program to multiply two floating-point numbers.

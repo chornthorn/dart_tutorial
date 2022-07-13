@@ -63,9 +63,9 @@ dart bin/my_project.dart
 ## Convert Dart Code To Javascript
 
 | Command                       | Description                                                     |
-|-------------------------------|-----------------------------------------------------------------|
+| ----------------------------- | --------------------------------------------------------------- |
 | dart compile js filename.dart | Compile dart to javascript. You can run this file with Node.js. |
 
-
 ## Challenge
+
 Create a new dart project with name `stockmanagement` and then run it.

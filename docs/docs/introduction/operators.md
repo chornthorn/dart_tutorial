@@ -17,11 +17,11 @@ Suppose the given expression is 2 + 3. Here 2 and 3 are operands, and + is the o
 
 ## Types Of Operators
 
-* Arithmetic Operators
-* Increment and Decrement Operators
-* Assignment Operators
-* Logical Operators
-* Type Test Operators
+- Arithmetic Operators
+- Increment and Decrement Operators
+- Assignment Operators
+- Logical Operators
+- Type Test Operators
 
 ## Arithmetic Operators
 
@@ -29,11 +29,11 @@ Arithmetic operators are the most common types of operators. They perform operat
 multiplication, division, etc.
 
 | Operator Symbol | Operation Name | Description                                          |
-|-----------------|----------------|------------------------------------------------------|
+| --------------- | -------------- | ---------------------------------------------------- |
 | +               | Addition       | For adding two operands                              |
 | -               | Subtraction    | For subtracting two operands                         |
-| -expr           | Unary          | Minus	For reversing the sign of the expression       |
-| *               | Multiplication | For multiplying two operands                         |
+| -expr           | Unary          | Minus For reversing the sign of the expression       |
+| \*              | Multiplication | For multiplying two operands                         |
 | /               | Division       | For dividing two operands and give output in double  |
 | ~/              | Division       | For dividing two operands and give output in integer |
 | %               | Modulus        | Remainder After Integer Division                     |
@@ -50,7 +50,7 @@ With increment and decrement operators, you can increase and decrease values. If
 is a prefix. If it is used at last, then it is postfix.
 
 | Operator Symbol | Operation Name | Description                                                  |
-|-----------------|----------------|--------------------------------------------------------------|
+| --------------- | -------------- | ------------------------------------------------------------ |
 | ++var           | Pre Increment  | Increase Value By 1. var = var + 1 Expression value is var+1 |
 | --var           | Pre Decrement  | Decrease Value By 1. var = var - 1 Expression value is var-1 |
 | var++           | Post Increment | Increase Value By 1. var = var + 1 Expression value is var   |
@@ -72,11 +72,11 @@ int age = 24;
 ```
 
 | Operator Type | Description                   |
-|---------------|-------------------------------|
+| ------------- | ----------------------------- |
 | =             | Assign a value to a variable  |
 | +=            | Adds a value to a variable    |
 | -=            | Reduces a value to a variable |
-| *=            | Multiply value to a variable  |
+| \*=           | Multiply value to a variable  |
 | /=            | Divided value by a variable   |
 
 <iframe height="400" src="//dartpad.dev/embed-inline.html?id=d8042da3945428b8ab28e34bdfb8e4ee&split=70&theme=dark" frameborder="0" allowfullscreen width="100%"></iframe>
@@ -90,7 +90,7 @@ To assign only if the assign-to variable is null use `??` operator.
 Relational operators are also called comparison operators. They are used to make a comparison.
 
 | Operator Symbol | Operation Name           | Description                                                                   |
-|-----------------|--------------------------|-------------------------------------------------------------------------------|
+| --------------- | ------------------------ | ----------------------------------------------------------------------------- |
 | ` >`            | Greater than             | Used to check which operand is bigger and gives result as boolean             |
 | <               | Less than                | Used to check which operand is smaller and gives result as boolean            |
 | `>=`            | Greater than or equal to | Used to check which operand is bigger or equal and gives result as boolean    |
@@ -105,7 +105,7 @@ Relational operators are also called comparison operators. They are used to make
 It is used to compare values.
 
 | Operator Type | Description                                                      |
-|---------------|------------------------------------------------------------------|
+| ------------- | ---------------------------------------------------------------- |
 | &&            | This is ‘and’, return true if all conditions are true            |
 | 2 equal       | This is ‘or’. Return true if one of the conditions is true       |
 | !             | This is ’not’. return false if the result is true and vice versa |
@@ -117,9 +117,8 @@ It is used to compare values.
 In dart, **type test** operators are useful for checking types at runtime.
 
 | Operator Symbol | Operation Name | Description                                                 |
-|-----------------|----------------|-------------------------------------------------------------|
+| --------------- | -------------- | ----------------------------------------------------------- |
 | is              | is             | Gives boolean value true if the object has a specific type  |
 | is!             | is not         | Gives boolean value false if the object has a specific type |
-
 
 <iframe height="300" src="//dartpad.dev/embed-inline.html?id=3488d68321ecf30c9065bf39a4c481ed&split=70&theme=dark" frameborder="0" allowfullscreen width="100%"></iframe>
