@@ -31,6 +31,9 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          sidebarCollapsible: true,
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: true,
           editUrl:
             'https://github.com/chornthorn/dart_tutorial/tree/main/docs/',
         },
@@ -83,6 +86,11 @@ const config = {
           },
         ],
       },
+      docs: {
+        sidebar: {
+          hideable: true,
+        },
+      },
       footer: {
         links: [
           {
@@ -125,7 +133,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Chorn Thorn .<br/>Built with 💙 by <a target="_blank" rel="noopener noreferrer" aria-label="Very Good Ventures" href="https://github.com/chornthorn">Docusaurus</a>.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Chorn Thorn.<br/>Built with 💙 by <a target="_blank" rel="noopener noreferrer" aria-label="Very Good Ventures" href="https://github.com/chornthorn">Docusaurus</a>.`,
       },
       prism: {
         additionalLanguages: ['dart'],
