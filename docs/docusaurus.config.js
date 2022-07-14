@@ -44,8 +44,20 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      image: '/img/logo.png',
+      metaImage: '/img/logo.png',
+
+      announcementBar: {
+        id: 'experimental',
+        content:
+          '🚧 This is an experimental docs. It might be change any time. 🚧 ',
+        backgroundColor: '#f9f871',
+        textColor: '#000000',
+        isCloseable: false,
+      },
       navbar: {
         title: 'Dart Tutorial',
+        hideOnScroll: true,
         logo: {
           alt: 'Dart Frog Logo',
           src: 'img/logo.svg',
