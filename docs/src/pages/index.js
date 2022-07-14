@@ -11,7 +11,7 @@ function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Fragment>
-      <ExperimentalWarning />
+      {/*<ExperimentalWarning />*/}
       <header className={clsx('hero hero--background', styles.heroBanner)}>
         <div className="container">
           <img
